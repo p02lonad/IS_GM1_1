@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void testaccesoswitchtrue(){		//prueba unitaria 001
+void testaccesoswitchtrue(){		//prueba unitaria 001 //
 	int b=1, f;
 	f=b;
 	bool resultado=b;
