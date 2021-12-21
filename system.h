@@ -9,7 +9,7 @@
     {
         private:
             string Nombreusuario_;
-            string Contrasena;
+            string Contrasena_;
         public:
             void getLista();
             void CambiarContrasena(string nombreUsuario);
@@ -19,7 +19,7 @@
     {
         private:
             string Fecha_;
-            int Duracion;
+            int Duracion_;
         public:
             void ModificarReserva(string fecha);
             void CancelarReserva(string fecha);
