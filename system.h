@@ -20,8 +20,8 @@
             string Fecha_;
             int Duracion;
         public:
-        void ModificarReserva(string fecha)
-        void CancelarReserva(string fecha)
+        void ModificarReserva(string fecha);
+        void CancelarReserva(string fecha);
         void Reservar(string fecha);
     };
     
@@ -32,9 +32,9 @@
             bool Disponibilidad_
             int Idmaquina_
         public:
-            bool comprobarDisponibilidad(string fecha, string nucleos)
-            void modificarMaquinas(string fecha, string nucleos)
-            void eliminarMaquinas(string fecha, string nucleos)
+            bool comprobarDisponibilidad(string fecha, string nucleos);
+            void modificarMaquinas(string fecha, string nucleos);
+            void eliminarMaquinas(string fecha, string nucleos);
     };
 
 
