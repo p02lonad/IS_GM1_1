@@ -3,6 +3,7 @@
 
     #include <iostream>
     #include <cstdlib>
+    #include <string>
 
     class Usuario
     {
@@ -20,9 +21,9 @@
             string Fecha_;
             int Duracion;
         public:
-        void ModificarReserva(string fecha);
-        void CancelarReserva(string fecha);
-        void Reservar(string fecha);
+            void ModificarReserva(string fecha);
+            void CancelarReserva(string fecha);
+            void Reservar(string fecha);
     };
     
     class Maquina
